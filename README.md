@@ -1,4 +1,4 @@
-Group assignment of 9 people to create an SQL procedure to solve the shortest path problem on a cyclic graph. SQL was used exclusively.
+# Group assignment of 9 people to create an SQL procedure to solve the shortest path problem on a cyclic graph. SQL was used exclusively.
 
 How to run?
 
