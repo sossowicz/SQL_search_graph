@@ -1,0 +1,16 @@
+/*
+EXEC AddDevice A, TRUE, FALSE, NULL, B;
+EXEC AddDevice B, FALSE, FALSE, C, E;
+EXEC AddDevice C, FALSE, FALSE, A, D;
+EXEC AddDevice Z, FALSE, TRUE, C, NULL;
+EXEC AddDevice Y, FALSE, TRUE, D, NULL;
+EXEC AddDevice E, FALSE, FALSE, B, D;
+EXEC AddDevice X, FALSE, TRUE, E, NULL;
+
+SELECT * FROM device
+*/
+EXEC searchMultiple SOURCE_WEIGH, DEST_CLEAN, DEST_LOAD;
+
+EXEC searchMultiple SOURCE_3, DEST11, DEST1;
+
+EXEC runSearch SOURCE_3, DEST11;
